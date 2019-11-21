@@ -1,0 +1,350 @@
+@import url(reset.css);
+@import url(ramka.css);
+
+html {
+    background-color: #fff;
+    font-size: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+/*  background-color: #d4d4d3;
+;  kolor szary tła */
+
+heder {
+    background: url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    height: 70vh;
+    width: 100%;
+    display:flex ;
+    opacity: 0.9;
+    -webkit-box-shadow: 2px 16px 15px -4px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 2px 16px 15px -4px rgba(0, 0, 0, 0.38);
+    box-shadow: 2px 16px 15px -4px rgba(0, 0, 0, 0.38);
+}
+
+
+.grey {
+    color: #DCDCDC;
+}
+
+.darkgrey {
+    color: #48504e;
+}
+
+.lightgrey {
+    color: #d4d4d3;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-family: 'Indie Flower';
+    margin: 1rem;
+    padding: 2.3rem;
+    position: fixed;
+    color: #2aada9;
+    text-shadow: 1px 2px;
+}
+
+h1 {
+    font-size: 1.9rem;
+    font-family: 'Lato';
+    background-color: rgba(255, 255, 255, 0.3 );
+    padding: 4rem;
+    height: 15%;
+    width: 60%;
+    margin: 200px 200px 200px ;
+    line-height: 2.3rem;
+    display: flex;
+    color: black;
+}
+
+
+/*Sekcja 1*/
+
+div.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.conteiner article {
+    width: 100%;
+}
+
+
+.conteiner figure {
+    width: 70%;
+}
+
+
+.conteiner h2.main  {
+    color: #000000;
+    font-size: 2.0rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.text1 {
+    color: #000000;
+    font-size: 1.6rem;
+    column-count: 1;
+    margin-bottom: 2rem;
+    line-height: 1.9rem;
+}
+
+
+img {
+    width: 80%;
+}
+
+
+.breakline {
+    margin-top: 6rem;
+}
+
+
+.btn {
+    display: inline-block;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+    padding: 1px 50px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.btn-turquoise:hover {
+    color: #2aada9;
+    border-color: #2aada9;
+    text-decoration: none;
+}
+
+
+.btn-cube-hover .btn {
+    display: block;
+    text-decoration: none;
+}
+
+
+.btn-cube-hover {
+    display: inline-block;
+    height: 22px;
+    transition: all 300ms ease;
+    transform-style: preserve-3d;
+    text-decoration: none;
+}
+
+
+.btn-cube-hover:hover {
+    transform: rotateX(89deg);
+    text-decoration: none;
+}
+
+
+.btn-cube-hover .default {
+    transform: translateZ(21px);
+    text-decoration: none;
+}
+
+
+.btn-cube-hover .hover {
+    transform: rotateX(-90deg) translateZ(-21px);
+    text-decoration: none;
+}
+
+
+ul {
+    font-size: 2.3rem;
+    line-height: 1.75;
+}
+
+
+/* footer*/
+footer p {
+    width:100%;
+    height: 2.5rem;
+    font-size: 0.9rem;
+    color: #000000;
+    text-align: center; 
+    padding: 1rem;
+    background-color: #d4d4d3;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+
+.ziemia:hover { transform: rotate(5deg) scale(1.3);}
+
+
+
+/* Sekcja2 */
+
+div.conteiner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+
+.conteiner2 article {
+    width: 100%;
+    background-color:
+}
+
+.conteiner2 figure { 
+    width: 80%;
+}
+
+
+.conteiner2 h2.main2 {
+    color: #000000;
+    font-size: 2.0rem;
+    margin-bottom: 2.5rem;
+}
+
+
+p.text2 {
+    color: #000000;
+    font-size: 1.6rem;
+    column-count: 1;
+    margin-bottom: 3rem;
+    line-height: 1.9rem;
+}
+
+
+.conteiner img.plate {
+    width: 100%;
+}
+
+
+.plate:hover {
+    transform: rotate(5deg) scale(1.3);
+}
+
+
+.line {
+    margin-top: 1.5rem;
+    height: 1rem;
+    background-color:
+}
+     
+
+div.conteiner3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+
+.kompo:hover {
+        transform: rotate(2deg) scale(1.3);
+}
+
+
+.kompo{
+      width: 95%;
+} 
+
+
+/*Sekcja 3 */
+
+.conteiner3 article {
+    width: 100%;
+    background-color:
+}
+
+.conteiner3 figure {
+    width: 70%;
+}
+
+
+h2.main3 {
+    color: #000000;
+    font-size: 2.0rem;
+    margin-bottom: 2.5rem;
+}
+
+
+p.text3 {
+    color: #000000;
+    font-size: 1.6rem;
+    column-count: 1;
+    margin-bottom: 3rem;  
+    line-height: 1.9rem;
+}
+
+
+/*Gallery owl carousel*/
+
+ 
+.item {
+    margin-right:1rem;
+}
+
+
+.item::after {
+    content:'';
+    display: block;
+    width: 4px;
+    height: 40px;
+    margin-top:1rem;
+    position:absolute;
+    background-color: #2aada9;
+    transition: all .3s ease-out;
+}
+
+.item:hover {
+    border-right: .8rem solid #2aada9;
+   transition: all .4s ease-out;
+}    
+ 
+
+.item:hover  item::after {
+    height: 50%;
+}     
+    
+
+h2.galeria {
+   color: #fff;
+    font-size: 2.0rem;
+    text-align: center;
+    width: 100%;
+    height:7rem;
+    background-color:#000000;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+
+.underline::after {
+    content:'';
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin-top:1rem;
+    position:absolute;
+    background-color: #2aada9;
+    transition: all .3s ease-out;
+}
+
+
+.when-hover:hover .underline::after {
+    width: 50%;
+}
+
